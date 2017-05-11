@@ -13,8 +13,8 @@
         <!-- Styles -->
         <style>
             html, body{
-                background-color: #fff;
-                color: #636b6f;
+                background-color: #b2ffb3;
+                color: #075e08;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -51,7 +51,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #075e08;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -61,7 +61,7 @@
             }
 
             p {
-                color: #636b6f;
+                color: #075e08;
                 padding: 0 25px;
                 font-size: 16px;
                 font-weight: 600;
@@ -101,6 +101,7 @@
                     <div class="links">
                         <a href="/rood">ROOD</a>
                         <a href="/blauw">BLAUW</a>
+                        <a href="/">HOME<a>
                         <a href="/geel">GEEL</a>
                         <a href="/groen">GROEN</a> 
                     </div>

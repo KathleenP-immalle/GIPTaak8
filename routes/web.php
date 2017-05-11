@@ -18,3 +18,25 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/x', function () {
+    return 'welcome';
+});
+
+Route::get('/rood', function () {
+    
+    
+    return view('rood');
+});
+
+Route::get('/blauw', function () {
+    return view('blauw');
+});
+
+Route::get('/geel', function () {
+    return view('geel');
+});
+
+Route::get('/groen', function () {
+    return view('groen');
+});

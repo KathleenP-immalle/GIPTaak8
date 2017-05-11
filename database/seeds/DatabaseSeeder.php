@@ -12,5 +12,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
+        $x= new App\Kleur;
+        $x->kleur_gekozen = 'rood';
+        $x->user_id = 1;
+        $x->save();
     }
 }
