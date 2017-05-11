@@ -101,9 +101,13 @@
                     <div class="links">
                         <a href="/rood">ROOD</a>
                         <a href="/blauw">BLAUW</a>
-                        <a href="/">HOME<a>
                         <a href="/geel">GEEL</a>
                         <a href="/groen">GROEN</a> 
+                        </br></br>
+                    </div>
+                    
+                    <div class="links">
+                        <a href="/">HOME<a>
                     </div>
                 @endif
             </div>

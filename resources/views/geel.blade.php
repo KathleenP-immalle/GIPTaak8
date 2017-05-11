@@ -43,7 +43,6 @@
 
             .content {
                 text-align: center;
-                
             }
 
             .title {
@@ -51,6 +50,7 @@
             }
 
             .links > a {
+                text-align: center;
                 color: #7c7604;
                 padding: 0 25px;
                 font-size: 12px;
@@ -101,10 +101,15 @@
                     <div class="links">
                         <a href="/rood">ROOD</a>
                         <a href="/blauw">BLAUW</a>
-                        <a href="/">HOME<a>
                         <a href="/geel">GEEL</a>
                         <a href="/groen">GROEN</a> 
+                        </br></br>
                     </div>
+                    
+                    <div class="links">
+                        <a href="/">HOME<a>
+                    </div>
+
                 @endif
             </div>
         </div>

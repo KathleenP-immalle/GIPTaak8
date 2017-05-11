@@ -19,24 +19,39 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/x', function () {
-    return 'welcome';
-});
-
 Route::get('/rood', function () {
-    
-    
+    $x= new App\Kleur;
+    $x->kleur_gekozen = 'rood';
+    $x->user_id = Auth::user()->id;
+    $x->save();
     return view('rood');
 });
 
+Route::get('/WhoAmI', function () {
+    return Auth::user()->id;
+    //return View::share('user');
+});
+
 Route::get('/blauw', function () {
+    $y= new App\Kleur;
+    $y->kleur_gekozen = 'blauw';
+    $x->user_id = Auth::user()->id;
+    $y->save();
     return view('blauw');
 });
 
 Route::get('/geel', function () {
+    $x= new App\Kleur;
+    $x->kleur_gekozen = 'geel';
+    $x->user_id = Auth::user()->id;
+    $x->save();
     return view('geel');
 });
 
 Route::get('/groen', function () {
+    $x= new App\Kleur;
+    $x->kleur_gekozen = 'groen';
+    $x->user_id = Auth::user()->id;
+    $x->save();
     return view('groen');
 });
