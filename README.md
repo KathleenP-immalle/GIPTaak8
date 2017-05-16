@@ -12,7 +12,7 @@ Op zich doet deze app niet veel, dat is waar. Maar er zijn een aantal kleine det
 
 Elke verschillende kleur is een andere route. Aan de hand daarvan heb ik gewerkt.
 
-Met Laravel kan goed gebruik maken van routes. Elke keer dat je naar eender welke kleur route surft, worden er dingen naar een database gestuurd: welke kleur je hebt gekozen, om hoe laat en wie je precies bent aan de hand van je user_id.
+Met Laravel kan je goed gebruik maken van routes. Elke keer dat je naar eender welke kleur route surft, worden er dingen naar een database gestuurd: welke kleur je hebt gekozen, om hoe laat en wie je precies bent aan de hand van je user_id.
 
 ## Wat heb ik gedaan?
 
